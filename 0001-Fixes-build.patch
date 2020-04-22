@@ -294,15 +294,6 @@ index 3bec0c7..e7a904a 100644
  
  SOURCES += credentials.cpp
  HEADERS += credentials.h
-@@ -82,7 +88,7 @@ SOURCES += notification.cpp
- HEADERS += notification.h
- 
- CONFIG += link_pkgconfig iodata-qt5
--PKGCONFIG += libpcrecpp libsystemd-daemon
-+PKGCONFIG += libpcrecpp libsystemd
- PKGCONFIG += sailfishaccesscontrol
- 
- CONFIG(dsme_dbus_if) {
 diff --git a/src/server/settings.type.cpp b/src/server/settings.type.cpp
 new file mode 100644
 index 0000000..2a85916
