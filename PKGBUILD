@@ -19,7 +19,7 @@ pkgdesc="Mer time daemon"
 arch=('x86_64' 'aarch64')
 url="https://$_host/$_project/$_gitname#branch=$_branch"
 license=('LGPL-2.1-or-later')
-depends=('dbus' 'libiodata')
+depends=('dbus' 'qt5-iodata-git')
 makedepends=('git')
 provides=("${pkgname%-git}")
 conflicts=("${pkgname%-git}")
